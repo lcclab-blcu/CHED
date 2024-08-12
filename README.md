@@ -1,4 +1,4 @@
-#### CHED
+### CHED
  A Cross-Historical Dataset with a Logical Event Schema for Classical Chinese Event Detection.
 
 ---
@@ -34,6 +34,25 @@ This dataset, named the Classical Chinese Historical Event Dataset (CHED), is de
 - **label.jsonl**
   - 该文件定义了数据集中所有可能的事件标签，包含标签的详细信息和分类。
   - This file defines all possible event labels in the dataset, including detailed information and classification of the labels.
+ 
+ ### 数据集格式说明 | Dataset Format Description
+
+```json
+{
+  "sen_id": 1986,   # 句子序号 | Sentence ID
+  "doc_id": 32029,  # 文档编码 | Document ID
+  "text": "寻以本官行梁州刺史。", # 文本内容 | Text Content
+  "events": [  # 事件 | Events
+    {
+      "id": 3290,  # 标签序号 | Label ID
+      "trigger": "行",  # 触发词 | Trigger Word
+      "label": "职位-官位-任职",  # 事件标签 | Event Label
+      "start_offset": 4,  # 触发词在“text”中的起始索引位置 | Start Offset of Trigger in Text
+      "end_offset": 5  # 触发词在“text”中的终止索引位置 | End Offset of Trigger in Text
+    }
+  ]
+}
+```
 
 #### 论文引用 | Citation
 
@@ -65,3 +84,5 @@ If you use this dataset in your research, please cite the following paper:
     language = "English",
 }
 ```
+
+[点击这里查看论文 | Click here to view the paper](https://aclanthology.org/2023.ccl-1.74/)
