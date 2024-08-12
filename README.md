@@ -1,41 +1,48 @@
+<div align="center">
+
 ### CHED
- A Cross-Historical Dataset with a Logical Event Schema for Classical Chinese Event Detection.
+_A Cross-Historical Dataset with a Logical Event Schema for Classical Chinese Event Detection_
+
+</div>
 
 ---
 
+<div align="center">
+
 ### 数据集说明 | Dataset Description
+
+</div>
+
+---
+
+**数据集说明 | Dataset Description**
 
 本数据集是古代汉语历史事件检测数据集（CHED），旨在帮助研究者对古文历史文本中的事件进行检测与分类。数据集涵盖了《二十四史》中多个历史人物和事件的记录，适用于构建和评估古代历史文本事件检测的算法与模型。
 
 This dataset, named the Classical Chinese Historical Event Dataset (CHED), is designed to aid researchers in detecting and classifying events within classical Chinese historical texts. It covers multiple historical figures and events recorded in the "Twenty-Four Histories," making it suitable for constructing and evaluating algorithms and models for event detection in ancient historical texts.
 
-#### 数据集文件 | Dataset Files
+---
 
-- **train.jsonl**
-  - 包含训练数据集，用于模型的训练过程。数据集经过标注，包含了事件触发词及其对应的事件类型标签。
-  - Contains the training dataset used for the model's training process. The dataset is annotated, including event trigger words and their corresponding event type labels.
+**数据集文件 | Dataset Files**
 
-- **valid.jsonl**
-  - 包含验证数据集，用于在训练过程中对模型进行验证和调整。数据的标注与训练集一致。
-  - Contains the validation dataset used to validate and adjust the model during training. The annotations are consistent with the training set.
+<div align="center">
 
-- **test.jsonl**
-  - 包含测试数据集，用于在模型训练完成后对其性能进行评估。标注方式与训练集和验证集一致。
-  - Contains the test dataset used to evaluate the model's performance after training is complete. The annotation method is consistent with the training and validation sets.
+| 文件名 | 描述 |
+| --- | --- |
+| **train.jsonl** | 包含训练数据集，用于模型的训练过程。数据集经过标注，包含了事件触发词及其对应的事件类型标签。 Contains the training dataset used for the model's training process. The dataset is annotated, including event trigger words and their corresponding event type labels. |
+| **valid.jsonl** | 包含验证数据集，用于在训练过程中对模型进行验证和调整。数据的标注与训练集一致。 Contains the validation dataset used to validate and adjust the model during training. The annotations are consistent with the training set. |
+| **test.jsonl** | 包含测试数据集，用于在模型训练完成后对其性能进行评估。标注方式与训练集和验证集一致。 Contains the test dataset used to evaluate the model's performance after training is complete. The annotation method is consistent with the training and validation sets. |
+| **all.jsonl** | 包含整个数据集的所有数据，包括训练集、验证集和测试集的所有内容，适用于全面分析或模型训练时的整体数据使用。 Contains all the data from the entire dataset, including the training, validation, and test sets, suitable for comprehensive analysis or using the entire data during model training. |
+| **doc2id.jsonl** | 该文件为文档和对应ID的映射关系，帮助标注或训练时快速定位和检索相关文本。 This file maps documents to their corresponding IDs, aiding in quickly locating and retrieving relevant texts during annotation or training. |
+| **label.jsonl** | 该文件定义了数据集中所有可能的事件标签，包含标签的详细信息和分类。 This file defines all possible event labels in the dataset, including detailed information and classification of the labels. |
 
-- **all.jsonl**
-  - 包含整个数据集的所有数据，包括训练集、验证集和测试集的所有内容，适用于全面分析或模型训练时的整体数据使用。
-  - Contains all the data from the entire dataset, including the training, validation, and test sets, suitable for comprehensive analysis or using the entire data during model training.
+</div>
 
-- **doc2id.jsonl**
-  - 该文件为文档和对应ID的映射关系，帮助标注或训练时快速定位和检索相关文本。
-  - This file maps documents to their corresponding IDs, aiding in quickly locating and retrieving relevant texts during annotation or training.
+---
 
-- **label.jsonl**
-  - 该文件定义了数据集中所有可能的事件标签，包含标签的详细信息和分类。
-  - This file defines all possible event labels in the dataset, including detailed information and classification of the labels.
- 
-#### 数据集格式说明 | Dataset Format Description
+**数据集格式说明 | Dataset Format Description**
+
+<div align="center">
 
 ```json
 {
@@ -54,11 +61,17 @@ This dataset, named the Classical Chinese Historical Event Dataset (CHED), is de
 }
 ```
 
-#### 论文引用 | Citation
+</div>
+
+---
+
+**论文引用 | Citation**
 
 如果您在研究中使用了该数据集，请引用以下论文：
 
 If you use this dataset in your research, please cite the following paper:
+
+<div align="center">
 
 ```
 @inproceedings{congcong-etal-2023-ched,
@@ -84,9 +97,14 @@ If you use this dataset in your research, please cite the following paper:
     language = "English",
 }
 ```
+
 [点击这里查看论文 | Click here to view the paper](https://aclanthology.org/2023.ccl-1.74/)
 
-#### 数据分析 | Data Analysis
+</div>
+
+---
+
+**数据分析 | Data Analysis**
 
 1. **数据大小** | **Data Size**
 
@@ -120,6 +138,8 @@ If you use this dataset in your research, please cite the following paper:
 
     (*In Xinhai year, there was a famine in eight provinces, including Chanzhou, Huazhou, Weizhou, Jinzhou, Jingzhou, Puqizhou, and Mengzhou. The emperor commanded the opening of granaries to provide relief for the people.*)
 
+
+<center>
 
 **一级类别** | **二级类别** | **三级类别** | **四级类别**
 --- | --- | --- | ---
@@ -191,3 +211,23 @@ If you use this dataset in your research, please cite the following paper:
 **自然** | 天象 | 流星 | -
 **自然** | 天气 | - | -
 
+</center>
+
+
+#### 许可证和使用条款 | License and Terms of Use
+
+**许可证 | License**
+
+本数据集使用 CC BY-NC 4.0 许可证进行分发。您可以自由使用和分享数据集，但需注明出处，并且仅限于非商业用途。
+This dataset is distributed under the CC BY-NC 4.0 license. You may freely use and share the dataset, but you must provide proper attribution and use it only for non-commercial purposes.
+
+**使用条款 | Terms of Use**
+
+- **数据用途: 数据集仅用于学术研究和教育目的，不得用于商业用途。**
+  Data Usage: The dataset is intended for academic research and educational purposes only, and must not be used for commercial purposes.
+
+- **数据保护: 使用数据时，请确保遵循相关数据保护法规和伦理规范。**
+  Data Protection: When using the data, please ensure compliance with relevant data protection regulations and ethical standards.
+
+- **引用要求: 使用数据集进行研究或发布结果时，请确保正确引用数据集和相关论文。**
+  Citation Requirements: When using the dataset for research or publishing results, ensure proper citation of the dataset and relevant papers.
