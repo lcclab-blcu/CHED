@@ -68,7 +68,7 @@ This dataset, named the Classical Chinese Historical Event Dataset (CHED), is de
 
 If you use this dataset in your research, please cite the following paper:
 
-```json
+```bibtex
 @inproceedings{congcong-etal-2023-ched,
     title = "{CHED}: A Cross-Historical Dataset with a Logical Event Schema for Classical {C}hinese Event Detection",
     author = "Congcong, Wei  and
@@ -88,7 +88,7 @@ If you use this dataset in your research, please cite the following paper:
     publisher = "Chinese Information Processing Society of China",
     url = "https://aclanthology.org/2023.ccl-1.74",
     pages = "875--888",
-    abstract = "{``}Event detection (ED) is a crucial area of natural language processing that automates the extraction of specific event types from large-scale text, and studying historical ED in classical Chinese texts helps preserve and inherit historical and cultural heritage by extracting valuable information. However, classical Chinese language characteristics, such as ambiguous word classes and complex semantics, have posed challenges and led to a lack of datasets and limited research on event schema construction. In addition, large-scale datasets in English and modern Chinese are not directly applicable to historical ED in classical Chinese. To address these issues, we constructed a logical event schema for classical Chinese historical texts and annotated the resulting dataset, which is called classical Chinese Historical Event Dataset (CHED). The main challenges in our work on classical Chinese historical ED are accurately identifying and classifying events within cultural and linguistic contexts and addressing ambiguity resulting from multiple meanings of words in historical texts. Therefore, we have developed a set of annotation guidelines and provided annotators with an objective reference translation. The average Kappa coefficient after multiple cross-validation is 68.49{\%}, indicating high quality and consistency. We conducted various tasks and comparative experiments on established baseline models for historical ED in classical Chinese. The results showed that BERT+CRF had the best performance on sequence labeling task, with an f1-score of 76.10{\%}, indicating potential for further improvement. 1Introduction{''}",
+    abstract = "{``}Event detection (ED) is a crucial area of natural language processing that automates the extrac-tion of specific event types from large-scale text, and studying historical ED in classical Chinesetexts helps preserve and inherit historical and cultural heritage by extracting valuable informa-tion. However, classical Chinese language characteristics, such as ambiguous word classes andcomplex semantics, have posed challenges and led to a lack of datasets and limited research onevent schema construction. In addition, large-scale datasets in English and modern Chinese arenot directly applicable to historical ED in classical Chinese. To address these issues, we con-structed a logical event schema for classical Chinese historical texts and annotated the resultingdataset, which is called classical Chinese Historical Event Dataset (CHED). The main challengesin our work on classical Chinese historical ED are accurately identifying and classifying eventswithin cultural and linguistic contexts and addressing ambiguity resulting from multiple mean-ings of words in historical texts. Therefore, we have developed a set of annotation guidelinesand provided annotators with an objective reference translation. The average Kappa coefficientafter multiple cross-validation is 68.49{\%}, indicating high quality and consistency. We conductedvarious tasks and comparative experiments on established baseline models for historical ED inclassical Chinese. The results showed that BERT+CRF had the best performance on sequencelabeling task, with an f1-score of 76.10{\%}, indicating potential for further improvement. 1Introduction{''}",
     language = "English",
 }
 ```
@@ -112,27 +112,6 @@ If you use this dataset in your research, please cite the following paper:
    我们构建了一个完整、具有逻辑的古文历史事件类型本体。古文历史事件类型之间是有层次关系的，事件大类之间也是具有联系的，这形成了一个严密的逻辑体系。
 
    We constructed a comprehensive and logical schema for classical Chinese historical events. The event types are hierarchical and interconnected, forming a coherent logical system.
-
-   二十四史是中国古代各个朝代撰写的官方正史总称，记录了古代中国几千年以来的朝代更替。我们认为，《二十四史》记载的中心主题仍然是围绕政治权力斗争和对权力的追求。
-
-   It is our belief that the central theme of records in the Twenty-Four Histories continues to revolve around political power struggles and the pursuit of authority.
-
-   因此，我们重点以职位事件为核心，进一步将其分为帝位和官位，反应了中国古代君臣的两大关系。政权的更替一般以“军事”事件为主，通过战争夺取政权，又而通过“法律”事件来维持政权，背后又以赋税制度为核心的“经济”事件支持政权。而皇帝为了强化自己政权的合法性，则会通过“祭祀”事件等仪式，比如祭天神，实际上是强调“君权神授”；祭地祗，包括祖先等，实际上是强调以嫡长子为核心的血缘关系继承制来强化政权的延续性；而祭人鬼，比如古代的圣贤（孔子等）是为政权提供了正统统治思想来源。
-
-   Therefore, we focus on the **_Position_** events as the core, which are further divided into **_imperial position_** and **_official position_**, reflecting the two major relationships between emperors and officials in ancient China. The transition of political power is generally reflected in **_Military_** events, which seize power through warfare and maintain power through **_Law_** events, supported by the **_Economy_** events that are centered around the taxation system. In order to strengthen the legitimacy of their political power, emperors often hold **_Ritual_** events, including the worship of heavenly deities to emphasize the divine right of emperors, the worship of ancestral spirits to emphasize the continuity of their bloodline-based inheritance system centered around the eldest son, and the worship of sages (e.g. Confucius) to provide a source of legitimate political ideology for their regimes.
-
-   君和臣之间是有联系的，从上至下，在以皇权为核心的政治制度下，通过“移动”，“交流”事件来实现政令的上传下达和措施的实施废止。“人生”事件主要是指皇帝和大臣的一生，这是二十四史“本纪”“列传”“世家”中主要记录的人物。
-
-   In a political system that centers around imperial power, there exists a relationship between emperors and officials, where **_Movement_** and **_Communication_** events are utilized to facilitate the transmission of political orders and the implementation or abolition of measures from top to bottom. The **_Life_** events mainly refer to the lives of the emperor and the officials, which are the main records of figures in the Benji (本纪), Liezhuan (列传), and Shijia (世家) sections of the Twenty-Four Histories.
-
-   同时，二十四史中对于自然事件的记录，主要是自然事件如何影响了皇帝和大臣的行为。例如《宋史》卷一，本纪第一，太祖一中“辛亥，澶、滑、卫、魏、晋、绛、蒲、孟八州饥，命发廪振之。”，这句话中包含了“饥荒”事件，由于八个州发生了饥荒，则影响了皇帝接下来的行为，即下令打开粮仓，救济百姓。
-
-   At the same time, the records of **_Nature_** events in the Twenty-Four Histories mainly focus on how natural events affected the behavior of the emperor and the officials. For example, in Volume One of Song Shi (宋史), in the Benji (本纪) of Taizu (太祖), the sentence below contains a **_famine_** event, which affected the emperor's subsequent actions, namely, ordering the opening of granaries to provide relief for the people due to the occurrence of famine in eight provinces.
-
-    (6) 辛亥，澶、滑、卫、魏、晋、绛、蒲、孟八州饥，命发廪振之。
-
-    (*In Xinhai year, there was a famine in eight provinces, including Chanzhou, Huazhou, Weizhou, Jinzhou, Jingzhou, Puqizhou, and Mengzhou. The emperor commanded the opening of granaries to provide relief for the people.*)
-
 
 **一级类别** | **二级类别** | **三级类别** | **四级类别**
 --- | --- | --- | ---
@@ -222,4 +201,3 @@ This dataset is distributed under the [CC BY-NC 4.0 license](https://creativecom
 
 - **引用要求: 使用数据集进行研究或发布结果时，请确保正确引用数据集和相关论文。**
   Citation Requirements: When using the dataset for research or publishing results, ensure proper citation of the dataset and relevant papers.
-
