@@ -1,7 +1,7 @@
 <div align="center">
 
 # CHED
-## _A Cross-Historical Dataset with a Logical Event Schema for Classical Chinese Event Detection_
+ _A Cross-Historical Dataset with a Logical Event Schema for Classical Chinese Event Detection_
 
 </div>
 
