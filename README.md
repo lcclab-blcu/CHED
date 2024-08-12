@@ -134,8 +134,6 @@ If you use this dataset in your research, please cite the following paper:
     (*In Xinhai year, there was a famine in eight provinces, including Chanzhou, Huazhou, Weizhou, Jinzhou, Jingzhou, Puqizhou, and Mengzhou. The emperor commanded the opening of granaries to provide relief for the people.*)
 
 
-<center>
-
 **一级类别** | **二级类别** | **三级类别** | **四级类别**
 --- | --- | --- | ---
 **人生** | 出生 | - | -
@@ -206,15 +204,13 @@ If you use this dataset in your research, please cite the following paper:
 **自然** | 天象 | 流星 | -
 **自然** | 天气 | - | -
 
-</center>
-
 
 #### 许可证和使用条款 | License and Terms of Use
 
 **许可证 | License**
 
-本数据集使用 CC BY-NC 4.0 许可证进行分发。您可以自由使用和分享数据集，但需注明出处，并且仅限于非商业用途。
-This dataset is distributed under the CC BY-NC 4.0 license. You may freely use and share the dataset, but you must provide proper attribution and use it only for non-commercial purposes.
+本数据集使用 [CC BY-NC 4.0 许可证](https://creativecommons.org/licenses/by-nc/4.0/)进行分发。您可以自由使用和分享数据集，但需注明出处，并且仅限于非商业用途。
+This dataset is distributed under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/). You may freely use and share the dataset, but you must provide proper attribution and use it only for non-commercial purposes.
 
 **使用条款 | Terms of Use**
 
@@ -226,3 +222,4 @@ This dataset is distributed under the CC BY-NC 4.0 license. You may freely use a
 
 - **引用要求: 使用数据集进行研究或发布结果时，请确保正确引用数据集和相关论文。**
   Citation Requirements: When using the dataset for research or publishing results, ensure proper citation of the dataset and relevant papers.
+
