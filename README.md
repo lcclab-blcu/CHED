@@ -42,8 +42,6 @@ This dataset, named the Classical Chinese Historical Event Dataset (CHED), is de
 
 **数据集格式说明 | Dataset Format Description**
 
-<div align="center">
-
 ```json
 {
   "sen_id": 1986,   # 句子序号 | Sentence ID
@@ -61,7 +59,6 @@ This dataset, named the Classical Chinese Historical Event Dataset (CHED), is de
 }
 ```
 
-</div>
 
 ---
 
@@ -71,9 +68,7 @@ This dataset, named the Classical Chinese Historical Event Dataset (CHED), is de
 
 If you use this dataset in your research, please cite the following paper:
 
-<div align="center">
-
-```
+```json
 @inproceedings{congcong-etal-2023-ched,
     title = "{CHED}: A Cross-Historical Dataset with a Logical Event Schema for Classical {C}hinese Event Detection",
     author = "Congcong, Wei  and
