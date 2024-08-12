@@ -109,9 +109,10 @@ If you use this dataset in your research, please cite the following paper:
 
 2. **事件逻辑体系构建** | **Event Logical Schema Construction**
 
-   我们构建了一个完整、具有逻辑的古文历史事件类型本体。古文历史事件类型之间是有层次关系的，事件大类之间也是具有联系的，这形成了一个严密的逻辑体系。
+   我们构建了一个完整、具有逻辑的古文历史事件类型本体。古文历史事件类型之间是有层次关系的，事件大类之间也是具有联系的，这形成了一个严密的逻辑体系，包括9大类和67小类的古文历史事件类型。
 
-   We constructed a comprehensive and logical schema for classical Chinese historical events. The event types are hierarchical and interconnected, forming a coherent logical system.
+   We constructed a comprehensive and logical schema for classical Chinese historical events. The event types are hierarchical and interconnected, forming a coherent logical system, which includes 9 major categories and 67 subcategories of classical Chinese historical event types.
+
 
 **一级类别** | **二级类别** | **三级类别** | **四级类别**
 --- | --- | --- | ---
@@ -189,6 +190,7 @@ If you use this dataset in your research, please cite the following paper:
 **许可证 | License**
 
 本数据集使用 [CC BY-NC 4.0 许可证](https://creativecommons.org/licenses/by-nc/4.0/)进行分发。您可以自由使用和分享数据集，但需注明出处，并且仅限于非商业用途。
+
 This dataset is distributed under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/). You may freely use and share the dataset, but you must provide proper attribution and use it only for non-commercial purposes.
 
 **使用条款 | Terms of Use**
