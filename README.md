@@ -34,7 +34,7 @@ This dataset, named the Classical Chinese Historical Event Dataset (CHED), is de
 
 **数据集格式说明 | Dataset Format Description**
 
-```json
+```markdown
 {
   "sen_id": 1986,   # 句子序号 | Sentence ID
   "doc_id": 32029,  # 文档编码 | Document ID
