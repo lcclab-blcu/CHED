@@ -27,7 +27,7 @@ This dataset, named the Classical Chinese Historical Event Dataset (CHED), is de
 | **all.jsonl** | 包含整个数据集的所有数据，包括训练集、验证集和测试集的所有内容，适用于全面分析或模型训练时的整体数据使用。 Contains all the data from the entire dataset, including the training, validation, and test sets, suitable for comprehensive analysis or using the entire data during model training. |
 | **doc2id.jsonl** | 该文件为文档和对应ID的映射关系，帮助标注或训练时快速定位和检索相关文本。 This file maps documents to their corresponding IDs, aiding in quickly locating and retrieving relevant texts during annotation or training. |
 | **label.jsonl** | 该文件定义了数据集中所有可能的事件标签，包含标签的详细信息和分类。 This file defines all possible event labels in the dataset, including detailed information and classification of the labels. |
-| **doccano_formatted_CHED_dataset.jsonl** | CHED数据集的所有古文篇章级标注数据，可以导入[doccano](https://github.com/doccano/doccano)标注平台。 Contains all the ancient Chinese literary passage-level annotation data from the CHED dataset, ready for import into the Doccano annotation platform. |
+| **doccano_formatted_CHED_dataset.jsonl** | CHED数据集的所有古文**篇章级**标注数据，可以导入[doccano](https://github.com/doccano/doccano)标注平台。 Contains all the ancient Chinese literary passage-level annotation data from the CHED dataset, ready for import into the Doccano annotation platform. |
 
 </div>
 
